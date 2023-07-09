@@ -20,11 +20,29 @@ body {
 
 }
 
+.sectionTitle {
+    color: #181818;
+    text-align: center;
+
+    font-size: 35px;
+
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sectionDrscription {
+    color: #757575);
+    text-align: center;
+
+    font-size: 18px;
+
+}
+
 /* nav related style  */
 nav {
     display: flex;
     justify-content: space-between;
-    align-items:center ;
+    align-items: center;
     padding-left: 6%;
     padding-right: 6%;
 }
@@ -44,41 +62,92 @@ nav>ul {
 nav li {
     list-style: none;
     margin-right: 50px;
+    font-size: 27px;
+
+
 }
 
 nav a {
     text-decoration: none;
     color: #474747;
 }
+
 /* Header related style */
-.header{
+.header {
     background-color: #e2d7cf;
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.banner{
+
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.bannerGreeting{
+
+.bannerGreeting {
     font-size: 45px;
     margin-bottom: 0px;
 
 }
-.bannerTitle{
+
+.bannerTitle {
     font-size: 85px;
     font-weight: 700px;
     margin-top: 5px;
     margin-bottom: 20px;
 
 }
-.banner .profilePicture{
+
+.banner .profilePicture {
     width: 500px;
 }
-.marginDis{
+
+.marginDis {
     padding-bottom: 10px;
     max-width: 500px;
+}
+
+/* Main section style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About section style */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #faf0ea;
+    text-align: center;
+    margin: 130px;
+}
+
+.aboutInfoContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutInfo {
+    text-align: center;
+}
+
+#whatIDo {
+    padding: 20px 60px;
+}
+
+/* skills related styls  */
+.skillsContainer {
+    display: flex;
+    gap: 24px;
+
+}
+
+.skills{
+    padding: 33px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
